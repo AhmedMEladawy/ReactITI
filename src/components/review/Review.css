@@ -1,5 +1,4 @@
-/* src/components/ReviewComponent.css */
-.review-container {
+/* .review-container {
     max-width: 600px;
     margin: auto;
     padding: 20px;
@@ -8,5 +7,59 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  /* Add more styling as needed */
+   */
+   .review-container {
+    max-width: 600px;
+    margin: auto;
+    
+  }
   
+  .review-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .review-rating {
+    margin-bottom: 20px;
+  }
+  
+  .review-textarea {
+    resize: none;
+  }
+  
+  .review-submit-btn {
+    background-color: #008489;
+  }
+  
+  .submitted-reviews {
+    margin-top: 40px;
+  }
+  
+  .review-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .review-rating-display {
+    font-size: 18px;
+    font-weight: bold;
+    color: #008489;
+  }
+  
+  .review-text-display {
+    margin-top: 10px;
+  }
+  
+  .rating-container {
+    display: flex;
+  }

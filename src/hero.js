@@ -20,7 +20,6 @@ function Header() {
                   Listings
                 </Link>
               </li>
-              {/* Add more links as needed */}
             </ul>
           </nav>
         </div>

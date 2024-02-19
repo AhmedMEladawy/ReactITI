@@ -8,6 +8,7 @@ import HotelMapsCal from "../components/GoogleMaps";
 // import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import Map from "../components/GoogleMaps2";
 import ReviewComponent from "../components/review/Review";
+import Footer from "../components/Footer";
 
 function HotelDetailsPage() {
   const { id } = useParams();
@@ -71,6 +72,7 @@ function HotelDetailsPage() {
       {/* Add the rest of the components (Availability Calendar, Location Map, Footer) here */}
       <HotelMapsCal />
       <ReviewComponent />
+      <Footer />
     </div>
   );
 }

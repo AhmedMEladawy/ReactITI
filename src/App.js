@@ -6,7 +6,6 @@ import Listing from "./pages/listing";
 import HotelDetails from "./components/HotelDetails";
 import HotelDetailsPage from "./pages/hoteldetailspage";
 import ReviewComponent from "./components/review/Review";
-import RegisterLogin from "./pages/RegisterLogin/RegisterLogin";
 
 function App() {
   return (
