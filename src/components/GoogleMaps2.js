@@ -13,7 +13,7 @@
 
 // const Map = () => {
 //   const { isLoaded, loadError } = useLoadScript({
-//     googleMapsApiKey: "AIzaSyAp7c9Wu70pZFctz6h56-bTKZCxbZ-wADw",
+//     googleMapsApiKey: "",
 //     libraries,
 //   });
 
