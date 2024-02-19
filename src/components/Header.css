@@ -1,0 +1,58 @@
+/* Add this to your existing styles or create a new CSS file */
+.header {
+  background-color: #ffffff; /* White background color */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for a subtle elevation */
+}
+
+.container {
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+.logo {
+  font-family: 'Arial', sans-serif; /* Choose a suitable font */
+  font-size: 1.5rem; /* Adjust the font size */
+  color: #ff5a5f; /* Airbnb's red color */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0; /* Adjust top and bottom padding */
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333; /* Text color for normal state */
+}
+
+.navbar a:hover {
+  color: #ff5a5f; /* Text color on hover, matching Airbnb's red color */
+}
+
+.date-picker {
+  /* Add styles for your DatePick component */
+}
+
+.user-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none; /* Hide the navigation links on small screens */
+  }
+
+  .user-actions {
+    flex-direction: column; /* Stack user actions vertically on small screens */
+  }
+}

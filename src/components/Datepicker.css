@@ -1,0 +1,57 @@
+/* airbnb-datepicker.css */
+
+.airbnb-datepicker {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .airbnb-datepicker__input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .airbnb-datepicker__input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .airbnb-datepicker__calendar-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .airbnb-datepicker__header {
+    background-color: #008489;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .airbnb-datepicker__day {
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .airbnb-datepicker__day--selected,
+  .airbnb-datepicker__day--selected:hover,
+  .airbnb-datepicker__month-text--selected,
+  .airbnb-datepicker__quarter-text--selected,
+  .airbnb-datepicker__year-text--selected,
+  .airbnb-datepicker__day--keyboard-selected,
+  .airbnb-datepicker__month-text--keyboard-selected,
+  .airbnb-datepicker__quarter-text--keyboard-selected,
+  .airbnb-datepicker__year-text--keyboard-selected {
+    background-color: #008489;
+    color: #fff;
+    border-radius: 50%;
+  }
+  

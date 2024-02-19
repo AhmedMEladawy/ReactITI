@@ -1,0 +1,41 @@
+/* airbnb-filter.css */
+
+.airbnb-filter {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .airbnb-filter label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .airbnb-filter input[type="text"],
+  .airbnb-filter input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .airbnb-filter fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .airbnb-filter legend {
+    font-weight: bold;
+  }
+  
+  .airbnb-filter label input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .airbnb-filter label:hover {
+    cursor: pointer;
+  }
+  
+  /* Add more styles as needed */
+  
